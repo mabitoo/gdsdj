@@ -1,0 +1,170 @@
+
+.w{
+	width: 1190px;
+	margin: auto;
+
+}
+i{
+	font-style: normal;
+}
+.fr{
+	float: right;
+}
+.fl{
+	float: left;
+}
+.j_event{
+	height: 80px;
+	background:rgb(251,82,111); 
+}
+.j_event a{
+	display: block;
+	height: 80px;
+	background: url(../images/top.jpg) no-repeat;
+	position: relative;
+	background-position: 50% 0;
+}
+ .toubu1{
+	position: absolute;
+	left: 0px;
+	background-image: url(../images/1.jpg);
+	height: 80px;
+	width: 180px;
+ 
+
+}
+.style-red{
+	color: #f10215!important;
+}
+
+@font-face {font-family: "iconfont";
+  src: url('../font_3uc2qt94xsthuxr/iconfont.eot?t=1527669909723'); /* IE9*/
+  src: url('../font_3uc2qt94xsthuxr/iconfont.eot?t=1527669909723#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'),
+  url('../font_3uc2qt94xsthuxr/iconfont.ttf?t=1527669909723') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../font_3uc2qt94xsthuxr/iconfont.svg?t=1527669909723#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wxbzhuye:before { content: "\e61f"; }
+
+.icon-wxbsousuotuiguang:before { content: "\e620"; }
+
+.icon-wxbdingwei:before { content: "\e624"; }
+
+.icon-iconfontshouji:before { content: "\e62a"; }
+
+.icon-iconfontphone:before { content: "\e634"; }
+
+.icon-iconfontshumajiadian:before { content: "\e63a"; }
+
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+.toubu2{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 0;
+	top: 5px;
+	font-family: 'iconfont';
+	font-size: 20px;
+	text-align: center;
+	background: rgba(0,0,0,0.4);
+}
+.shortcut{
+	background-color: #e3e4e5;
+	height: 30px;
+	border-bottom: 1px solid #e3e4e5;
+	line-height: 30px;
+	font-size: 12px;
+	color: #999999;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+.shortcut .fl li{
+	margin-left: 200px;
+}
+li{
+	list-style: none;
+}
+.shortcut .fr li{
+	float: left;
+}
+.shortcut .fl li i{
+	font-family: 'iconfont';
+	color: red;
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+}
+.shortcut .fr .shuxian{
+	width: 1px;
+	height: 10px;
+	margin: 10px 10px 0;
+	background-color: #ccc;
+}
+.dorpdown{
+	padding-right: 20px;
+	position: relative;
+}
+.dorpdown i{
+	font-family: "iconfont";
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+
+.shortcut a:hover{
+	color: red;
+}
+div.erweima {
+	width: 60px;
+	height: 60px;
+	border: 1px solid #ccc;
+	padding: 3px;
+	position: absolute;
+	top: 30px;
+	left: -2px;
+}
+  
+img{
+	width: 100%;
+}
+.header{
+	margin-top: -21px;
+
+}
+.inner{
+	height: 140px;
+
+}
+.logo{
+	height: 170px;
+	width: 190px;
+	position: relative;
+}
+.logo a{
+	display: block;
+	width: 190px;
+	height: 170px;
+	background: url(../images/3.gif) no-repeat;
+	position: absolute;
+	top: -30px;
+	left: 0;
+}
